@@ -55,17 +55,15 @@ We order the topics as follows: building models (using PyMC3 for inference), inf
 
 - [x] Monte Carlo: importance sampling and rejection sampling
 - [x] Markov Chain Monte Carlo
-- [x] Metropolis and Metropolis-Hastings
+- [x] Metropolis
   - [x] Examples: 2D Gaussian, linear regression with Laplace prior
+  - [x] Complex study: Responses to visual stimuli study
 - [x] Exercise: write your own sampler
-- [ ] Gibbs sampling
-  - [ ] Examples: 2D Gaussian, Dirichlet Process-based clustering (a taste of nonparametric methods)
-
-### Approximation Methods
-
-- [ ] Variational inference
-- [ ] The ELBO
-- [ ] Mean field approximation
+- [x] Gibbs sampling and Metropolis-within-Gibbs
+  - [x] Example: Ising model
+  - [x] Example: Metropolis within Gibbs toy example
+  - [x] Example: Response times to visual stimuli Metropolis-within-Gibbs
+- [x] Hamiltonian Monte Carlo
 
 ### Model Checking and Output Processing
 
